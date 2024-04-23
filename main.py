@@ -19,7 +19,7 @@ load_dotenv()
 # load Backblaze connection
 b2 = B2(endpoint=os.environ['B2_ENDPOINT'],
         key_id=os.environ['B2_keyID'],
-        secret_key=os.environ['B2_applicationkey'])
+        secret_key=os.environ['B2_applicationKey'])
 
 def get_data():
     b2.set_bucket(os.environ['B2_BUCKETNAME'])
