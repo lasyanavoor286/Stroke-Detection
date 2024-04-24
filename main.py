@@ -62,6 +62,10 @@ class StrokeRiskAnalyzer:
             st.write("1. Average glucose levels tend to be higher among individuals with a history of stroke.")
             st.write("2. Smoking status and age may also influence stroke risk.")
 
+    # Adding link to GitHub repository
+            st.write("For more details, visit the GitHub repository:")
+            st.markdown("[Stroke Detection Repository](https://github.com/lasyanavoor286/Stroke-Detection)")
+
     def get_data(self):
         try:
             self.b2.set_bucket(os.environ['B2_BUCKETNAME'])
