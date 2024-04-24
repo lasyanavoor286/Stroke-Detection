@@ -34,3 +34,5 @@ When data handling and analysis is done in accordance with ethical standards and
 
 
 
+Link to the website-
+https://github.com/lasyanavoor286/Stroke-Detection
