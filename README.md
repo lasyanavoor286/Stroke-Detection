@@ -35,4 +35,4 @@ When data handling and analysis is done in accordance with ethical standards and
 
 
 Link to the website-
-https://github.com/lasyanavoor286/Stroke-Detection
+https://stroke-detection-trqmomfd4v8wrymjn5xg7p.streamlit.app/
