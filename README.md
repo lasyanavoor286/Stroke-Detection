@@ -5,7 +5,8 @@ This project aims to develop a web application for analyzing stroke risk based o
 
 <h1> Stakeholder & Benefits </h1>
 This tool would be beneficial to researchers, healthcare practitioners, and anybody interested in managing and preventing strokes. They can make educated judgements regarding treatment plans and preventive measures by using the programme to investigate relationships between various health conditions and the risk of stroke.
-
+<h4>Real Time Scenario</h4>
+Consider Dr. Smith, a medical professional, who is evaluating middle-aged patients for stroke risk. Using this application, Dr. Smith enters the medical history and demographic information for a fictitious 52-year-old patient named John Doe who has a history of hypertension and elevated average blood sugar levels. Upon entering the data, the application dynamically calculates John's stroke risk and displays interactive visualizations including histograms of similar patient profiles. Dr. Smith explores the impact of different variables like smoking status and BMI on John’s stroke risk, adjusts treatment plans, and discusses preventive strategies tailored to his specific health condition.
 
 <h1> Data Description </h1>
 The project's dataset includes details on people's lifestyle choices, medical histories, and demographics, including whether or not they have experienced a stroke. Age, gender, heart disease, hypertension, average blood sugar, BMI, smoking status, and other factors are examples of attributes. To guarantee accuracy and consistency, the data was removed and cleansed.
