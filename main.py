@@ -33,8 +33,21 @@ class StrokeRiskAnalyzer:
     
     def run(self):
         if self.data is not None:
-            # Title of the web app
-            st.title("Stroke Risk Analysis")
+            # Introduction section
+            st.markdown(
+                """
+                <div style="background-color:#f0f0f0;padding:10px;border-radius:10px">
+                    <h1 style="color:#0074D9;text-align:center;">Welcome to Stroke Risk Analysis Application</h1>
+                    <p style="color:#555555;text-align:justify;">This application allows you to analyze the risk of stroke based on various factors. 
+                    You can filter the data based on age, gender, hypertension, heart disease, work type, residence type, and smoking status.</p>
+                    <p style="color:#555555;text-align:justify;">After selecting the filters, the application will display the filtered data, dynamic visualization, statistical analysis, and data insights.</p>
+                </div>
+                """, unsafe_allow_html=True
+            )
+
+            st.write("")  # Add some space
+            
+            st.markdown("---")  # Divider line
 
             try:
                 # Sidebar for interactive filters
@@ -87,6 +100,7 @@ class StrokeRiskAnalyzer:
 # Adding link to GitHub repository
             st.write("For more details, visit the GitHub repository:")
             st.markdown("[Stroke Detection Repository](https://github.com/lasyanavoor286/Stroke-Detection)")
+
 
 # Instantiate classes to run the application
 data_fetcher = DataFetcher()
