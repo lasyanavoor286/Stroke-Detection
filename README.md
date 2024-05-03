@@ -1,4 +1,4 @@
-STROKE RISK ANALYSIS WEB APPLICATION
+<h1>STROKE RISK ANALYSIS WEB APPLICATION</h1>
 
 </h1> Abstract or Overview </h1>
 This project aims to develop a web application for analyzing stroke risk based on a dataset containing health-related information. The main purpose of the project is to provide insights into the factors contributing to stroke risk and to offer a tool for users to explore the data interactively. Through this project, we gained insights into the correlation between various health attributes and stroke risk.
